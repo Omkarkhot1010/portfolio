@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work - Omkar Khot</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <script defer src="script.js"></script>
+
+    <style>
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            background-color: #f9f9f9;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 150px; /* Set a fixed height for uniformity */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .project-card p {
+            margin-bottom: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Same Header Across All Pages -->
+    <header>
+        <h1><a href="index.html">Omkar Khot</a></h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="C:\Users\omkar\Desktop\Omkar Khot-Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://github.com/your-github-profile" target="_blank" class="social-icon github-icon">
+                    <i class="fa-brands fa-github"></i>
+                </a></li>
+                <li><a href="https://www.instagram.com/_omkar__khot/" target="_blank" class="social-icon insta-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/omkar-khot-206799204/" target="_blank" class="social-icon linkedin-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="work-section">
+        <h2>My Work</h2>
+        <br />
+        <p>Here are some of the projects I have worked on:</p>
+
+        <div class="project-list">
+
+            <!-- Portfolio Website -->
+            <div class="project-card">
+                <h3>1. Portfolio Website</h3>
+                <p>A responsive personal website built using HTML, CSS, and JavaScript to showcase my skills, projects, and resume in a clean and minimal design.</p>
+            </div>
+
+            <!-- Hospital Management System -->
+            <div class="project-card">
+                <h3>2. Hospital Management System</h3>
+                <p>A Java Full Stack web application that helps manage hospital tasks like patient records, appointments, doctor details, and billing.</p>
+            </div>
+
+            <!-- Task Management App -->
+            <div class="project-card">
+                <h3>3. Task Management App</h3>
+                <p>A simple and powerful task tracking app for managing daily tasks with options to add, update, complete, and delete tasks in a clean UI.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Same Footer Across All Pages -->
+    <footer>
+        <h3>Come Say Hello!</h3>
+        <p class="email">
+            <a href="mailto:omkarkhot6984@gmail.com">omkarkhot6984@gmail.com</a>
+        </p>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/_omkar__khot/" target="_blank" class="social-icon insta-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/omkar-khot-206799204/" target="_blank" class="social-icon linkedin-icon">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

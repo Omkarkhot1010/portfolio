@@ -1,0 +1,217 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+   
+}
+
+/* Header (Persistent Across Pages) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* Clickable Name */
+header h1 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header h1 a:hover {
+    color: #6a0dad;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 80px; /* Spacing on the right */
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+/* Navigation Links */
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #6a0dad;
+}
+
+/* Social Icons in Menu */
+.social-icon {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* GitHub Icon */
+.github-icon i {
+    color: #333;
+}
+
+.github-icon:hover i {
+    color: #6a0dad;
+    transform: scale(1.1);
+}
+
+/* Instagram Icon */
+.insta-icon i {
+    color: #E4405F;
+}
+
+/* LinkedIn Icon */
+.linkedin-icon i {
+    color: #0077b5;
+}
+
+/* On Hover */
+.social-icon:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    background: linear-gradient(to right, #7B1FA2, #512DA8);
+    color: white;
+    
+    
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* About Page */
+.about-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.profile-pic {
+    width: 1500;
+    height: 2251;
+    margin-right: 1000px;
+    margin-left: 150px;
+    flex-wrap: 20px;
+    
+}
+
+/* Work Page */
+.work-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.work-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-section li {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #512DA8;
+}
+
+/* Footer (Persistent Across Pages) */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Footer Heading */
+footer h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Footer Email */
+footer .email {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Footer Icons (Aligned Horizontally with Proper Spacing) */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0px; /* Proper spacing between icons */
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+/* Social Icon Hover Effect */
+.footer-icons a:hover {
+    transform: scale(1.1);
+}
