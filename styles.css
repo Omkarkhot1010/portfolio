@@ -260,4 +260,67 @@ footer .email {
     font-weight: 500;
     margin: 0;
 }
+/* Responsive Design for Tablets and Phones */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+        margin-right: 0;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero h3 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .profile-pic {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 20px;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .skills-container {
+        gap: 1rem;
+    }
+
+    .skill-card {
+        width: 100px;
+        padding: 1rem;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
+
+    .footer-icons {
+        gap: 10px;
+    }
+}
 
